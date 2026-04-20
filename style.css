@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+}
+
+.dashboard {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background: #2e7d32;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+/* Main */
+.main {
+  flex: 2;
+  padding: 20px;
+}
+
+.farm {
+  position: relative;
+}
+
+.farm img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* Zones */
+.zone {
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.zoneA { top: 20%; left: 20%; }
+.zoneB { top: 50%; left: 40%; }
+.zoneC { top: 70%; left: 60%; }
+
+/* Right panel */
+.right {
+  width: 250px;
+  background: white;
+  padding: 20px;
+}
